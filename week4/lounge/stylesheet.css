@@ -1,0 +1,25 @@
+/* Flex-container */
+.flex-container {
+    display: flex; /* Activate the flexbox */
+    flex-direction: row; /* Items are placed in a row */
+    /* Distribute the items with space around */
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* flex-items */
+.felx-item {
+    flex: 1; /* Each item grows equally */
+    min-width: 100px; /* Minimum width for responsivenss */
+    max-width: 200px; /* Maximum width for responsivness */
+    text-align: center;
+    border: 1px solid #007bff;
+    padding: 20px;
+    background-color: #e3f2fd;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.9);
+}
